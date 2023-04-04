@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat B;
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+body {
+    margin: 0;
+    background-color: #a8a8a8;
+    height: 1280px;
+    font-family: Montserrat, sans-serif;
+}
+.title {
+    font-family: Montserrat B, sans-serif;
+    font-size: 25px;
+}
+.title.ri {
+    font-size: 25px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.skills-i {
+    margin-top: 20px;
+}
+li {
+    margin-bottom: 20px;
+}
+ul {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+.main-info>section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(94, 91, 91);
+}
+.portfolio {
+    border-radius: 10px;
+    height: 1200px;
+    width: 1260px;
+    position: absolute;
+    margin-bottom: 20px;
+    right: 70px;
+    top: 30px;
+    margin: 0;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.right-info {
+    background-color: #263440;
+    display: inline-block;
+    height: 1200px;
+    width: 470px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.shapka {
+    display: inline-block;
+    padding: 40px;
+    height: 250px;
+    width: 710px;
+    color: rgb(94, 91, 91);
+    background-color: #c4cfe5;
+    position: absolute;
+    border-top-right-radius: 10px;
+    top: 0px;
+}
+.main-info {
+    display: inline-block;
+    padding: 40px;
+    background-color: #fff;
+    position: absolute;
+    color: rgb(94, 91, 91);
+    top: 330px;
+    height: 790px;
+    width: 710px;
+    border-bottom-right-radius: 10px;
+}
+.title.sp.name {
+    font-size: 40px;
+}
+.chel {
+    text-align: center;
+}
+.sp.disc-info {
+    font-size: 18px;
+}
+.info-job {
+    font-size: 20px;
+}
